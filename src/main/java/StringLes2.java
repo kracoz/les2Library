@@ -37,6 +37,7 @@ public class StringLes2 {
                 System.out.println("Запрос пуст! Повторите запрос.");
                 inputrReg = reader.readLine();
             }
+
             System.out.println("Учитывать регист(y/n)?");
             String ignoreCaseStr = reader.readLine();
             Boolean ignoreCase = false;
